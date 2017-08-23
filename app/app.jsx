@@ -5,13 +5,10 @@ var Main = require('Main');
 var Weather = require('Weather');
 var About = require('About');
 var Examples = require('Examples');
-//var Route = require('react-router').Route;
-//Object Destructuring
-//var obj = {
-// name: 'abinash'
-// }
-// Var {name} = obj;
 
+//load foundation
+require('style!css!foundation-sites/dist/foundation.min.css')
+$(document).foundation();
 
 ReactDOM.render(
   <Router history={hashHistory}>
