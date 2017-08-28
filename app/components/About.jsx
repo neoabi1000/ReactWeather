@@ -10,7 +10,7 @@ var About = (props) => {
       <p>
         I am using the the openweathermap api for getting the exact weather data available for different cities.
         So all my weather data are authentic. Check out my app on heroku web server site:
-        <a href="http://dry-tundra-33736.herokuapp.com/#/?_k=7h1clu">My Weather App</a>
+        <a href="http://dry-tundra-33736.herokuapp.com/#/?_k=7h1clu" target="_blank">My Weather App</a>
       </p>
       <p>
         Here are the some the tools which I have used:
